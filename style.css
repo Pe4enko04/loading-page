@@ -1,0 +1,192 @@
+.header{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-image: url("supreme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_black{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.header_text{
+color: #ffd700;
+    font-size: 85px;
+    font-weight: 500px;
+    margin-bottom: 35px;
+
+}
+.header_text_bio{
+color: rgb(255, 215, 0);
+    font-size: 30px;
+    font-weight: 500px;
+
+}
+
+.header_1{
+    text-align: center;
+    width: 500px;
+}
+.header_cap{
+    background: white;
+    height: 50px;
+    width: auto;
+
+}
+.header-section1{
+    width: calc(50% - 100px);
+    display: inline-block;
+    text-align: left;
+    padding-left: 5px;
+    font-size: large;
+    color:black ;
+    margin-top: 16px;
+    position: absolute;
+
+}
+.header-section1-text{
+    margin-left: 10px;
+}
+.header-section2{
+    width: calc(50% - 100px);
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 16px;
+    position: absolute;
+}
+
+.header_text_header{
+    margin-top: 13px;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    font-size: 24px;
+    color: darkorange;
+    font-family: "Lucida Console", Times, serif;
+    font-weight: bold;
+    margin-left: calc(50% - 75px);
+}
+.advantages_text{
+color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 40px;
+
+    margin-top: 10px;
+    display: inline-block;
+}
+.advantages_image{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+
+
+
+}
+.advantages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: c;
+    background: #606060;
+
+}
+.item_1{
+    margin: 40px;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    background: white;
+
+}
+.item_image{
+    width: 300px;
+    height: 400px;
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.items_bar{
+    text-align: center;
+margin-top: 50px;
+    display: inline-block;
+    background: gray;
+}
+.items_text{
+    text-align: center;
+    margin-top: 40px;
+    color:black ;
+
+
+}
+.text_price{
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+}
+.reviews{
+     text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+    background: #dbdbdb;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 100%;
+
+}
+.reviews_text{
+text-align: center;
+display: inline-block;
+    color:black ;
+width: 400px;
+    height: 300px;
+    background: #262626;
+    vertical-align: top;
+
+
+
+
+
+
+}
+.reviews_image1{
+    display: inline-block;
+    background-image: url("ilon.jpg");
+       border: 2px;
+  border-radius: 125px;
+    width: 200px;
+    height: 200px;
+margin-top:20px ;
+}
+.reviews_image2{
+    display: inline-block;
+    background-image: url("banana.jpg");
+       border: 2px;
+  border-radius: 125px;
+    width: 200px;
+    height: 200px;
+margin-top:20px ;
+
+
+}.reviews_image3{
+    display: inline-block;
+    background-image: url("Will-Smith.jpg");
+       border: 2px;
+  border-radius: 125px;
+    width: 200px;
+    height: 200px;
+margin-top:20px ;
+
+
+}
